@@ -52,7 +52,7 @@ setup(
         'PyYAML',
         'ipython',
         # support alpaca backend by default
-        'alpaca-trade-api>=0.48',
+        'alpaca-trade-api @ git+ssh://git@github.com/daraul/alpaca-trade-api-python@master#egg=alpaca-trade-api',
         'pipeline-live>=0.1.9',
     ],
     tests_require=[
